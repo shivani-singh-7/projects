@@ -1,0 +1,51 @@
+@use  'miniproject1/tables';
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+    /* Style the navigation bar links */
+   .a {
+    float:right; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px 2px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  /* Change color on hover/mouse-over */
+   a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: rgb(17, 17, 17); /* Black text color */
+  }
+}
+  .header {
+    padding: 30px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1abc9c; /* green background */
+    color: white; /* white text color */
+            }
+
+  .search {
+    margin: 10px 5px 15px 20px;
+  }
+  
+  .add {
+    padding:5px;
+    margin:10px 600px 10px ;
+    
+  }
+  .add1
+  {
+      background-color: #4CAF50;  
+      color: white;  
+      padding: 10px;  
+      margin: 10px 650px 10px;  
+      border: none;  
+      cursor: pointer;   
+      opacity: 0.9;  
+    
+  }
+  .container {    
+  background-color: lightblue;  
+  }
+  
+  
