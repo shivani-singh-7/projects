@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{  
+  font-family: Calibri;  
+  background-color: pink;  
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+<form >
+  <a href="demo.js">link</a>
+    <center><h2 style="color: blueviolet;">Adventures Registration Form</h2></center>
+    <label>First name</label>
+    <input type="text"  id=fname placeholder="Firstname" required="*"/><br>
+    <label>Last name</label>
+    <input type="text"  id=lname placeholder="Lastname" required/><br>
+    <label>Gender</label>
+    <input type="radio" value="Male" name=Gender/>Male
+    <input type="radio" value="Female" name=Gender/>Female
+    <input type="radio" value="Other" name=Gender/>Other<br>
+    <label>DOB</label>
+    <input type="date" id="myDate" /><br>
+    <label>Phone number</label>
+    <input type="text" id="pnumber" size="10" required/><br>
+    <label>Address</label>
+    <div>
+    <textarea rows="5" cols="30" value=address required ></textarea><br>
+    <label>Select place to visit</label>
+    <select>
+        <option value="Select">Select</option>
+        <option value="Ladakh">Ladakh</option>
+        <option value="Gokarna">Gokarna</option>
+        <option value="kanyakumari">Kanyakumari</option>
+    </select><br>
+    <button type="submit" class="registerbtn">Register</button> 
+</div>
+
+
+</form>
+ </body>
+
+</html>
